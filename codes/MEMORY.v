@@ -12,6 +12,7 @@ module MEMORY(
     integer i, j;
     integer i1, i2;
     integer j1, j2;
+
  
     initial
         reset_mem();
@@ -43,38 +44,7 @@ module MEMORY(
 
     task reset_mem;
         begin
-            data_memory[0] <= 32'h0;
-            data_memory[1] <= 32'h0;
-            data_memory[2] <= 32'hFFFFFFFF;
-            data_memory[3] <= 32'hF0000000;
-            data_memory[4] <= 32'hF0000000;
-            data_memory[5] <= 32'h0000000F;
-            data_memory[6] <= 32'h1;
-            data_memory[7] <= 32'h1;
-            data_memory[8] <= 32'h80000000;
-            data_memory[9] <= 32'h0F0000F0;
-            data_memory[10] <= 32'h0F0000F0;
-            data_memory[11] <= 32'h000FF000;
-            data_memory[12] <= 32'h7FFFFFFF;
-            data_memory[13] <= 32'hFFFF0000;
-            data_memory[14] <= 32'h0000FFFF;
-            data_memory[15] <= 32'h15;
-            data_memory[16] <= 32'h0;
-            data_memory[17] <= 32'hFFFFFFFF;
-            data_memory[18] <= 32'hFFFFFFFF;
-            data_memory[19] <= 32'hF0000000;
-            data_memory[20] <= 32'h0000000F;
-            data_memory[21] <= 32'h0000000F;
-            data_memory[22] <= 32'h1;
-            data_memory[23] <= 32'h80000000;
-            data_memory[24] <= 32'h80000000;
-            data_memory[25] <= 32'h0F0000F0;
-            data_memory[26] <= 32'h000FF000;
-            data_memory[27] <= 32'h000FF000;
-            data_memory[28] <= 32'h7FFFFFFF;
-            data_memory[29] <= 32'h0000FFFF;
-            data_memory[30] <= 32'h0000FFFF;
-            data_memory[31] <= 32'h2;
+            $readmemh("hex_file.txt", data_memory);
         end
     endtask
 
