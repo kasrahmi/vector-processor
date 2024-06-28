@@ -44,7 +44,7 @@ module MEMORY(
 
     task reset_mem;
         begin
-            $readmemh("hex_file.txt", data_memory);
+            $readmemh("file.txt", data_memory);
         end
     endtask
 
