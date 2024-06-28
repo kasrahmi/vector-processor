@@ -1,6 +1,8 @@
 # vector-processor
 
-![images](https://github.com/kasrahmi/vector-processor/assets/119696431/f64ee5e7-da5e-48ad-a882-dd1a926ec3b9)
+<p align="center">
+  <img src="https://github.com/kasrahmi/vector-processor/assets/119696431/f64ee5e7-da5e-48ad-a882-dd1a926ec3b9" alt="Vector Processor Image">
+</p>
 
 
 ## Overview
