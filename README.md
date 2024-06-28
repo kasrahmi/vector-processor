@@ -1,7 +1,7 @@
 # vector-processor
 
-![GitHub](https://img.shields.io/github/license/kasrahmi/vector-processor)
-![GitHub last commit](https://img.shields.io/github/last-commit/kasrahmi/vector-processor)
+![images](https://github.com/kasrahmi/vector-processor/assets/119696431/f64ee5e7-da5e-48ad-a882-dd1a926ec3b9)
+
 
 ## Overview
 
@@ -68,4 +68,4 @@ Contributions to enhance functionality, optimize performance, or improve documen
   
 ## Contact
 
-For questions, feedback, or further inquiries, please contact [Your Name](mailto:a.kasrahmi@gmail.com).
+For questions, feedback, or further inquiries, please contact [Kasra Ahmadi](mailto:a.kasrahmi@gmail.com).
